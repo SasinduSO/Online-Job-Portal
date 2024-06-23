@@ -1,0 +1,474 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .top{
+  
+    width: 100%;
+    color:azure;
+    height: 155px;
+    text-align: center;
+    background: linear-gradient(-45deg,#000000,#63656d,#000000,#000000);
+     font-size: 40px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    padding-left: 30px;
+    text-align: justify;
+    justify-content: space-between;
+  }
+  .logo{
+    width: 290px;
+    height: 150px;
+    display: block;
+   
+  
+  }
+  
+  #btn1{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 950px;
+    text-align: center;
+    position:absolute;
+    padding-left: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(243, 50, 50);
+   
+   
+  }
+  #btn1:hover{
+    
+        background-color: rgb(131, 29, 29);
+        color: white;
+     
+  }
+
+  #btn2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  
+  #btn1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+
+
+  #btn2{
+    width: 100px;
+    height: 30px;
+    display:flex;
+    margin-top: 73px;
+    margin-left: 950px;
+    text-align: center;
+    position:absolute;
+    padding-left: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(243, 50, 50);
+    
+   
+  }
+  
+  #btn2:hover{
+    
+    background-color: rgb(131, 29, 29);
+    color: white;
+  
+  }
+  
+  .nav1{
+    width: 98%;
+    background-color: rgb(74, 82, 85);
+    height: 55px;
+    margin-top: 160px;
+    border-radius: 10px;
+    border-color: rgb(122, 122, 122);
+    margin-left: 15px;
+  
+  }
+  
+  .nav1 ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  
+  .nav1 ul li{
+  
+    width: 140px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 4px;
+    text-align: center;
+    overflow: auto;
+  }
+  
+  .nav1 ul li a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  .nav1 ul li a:hover{
+  
+    display: block;
+    background-color: rgb(156, 13, 13);
+    border-radius: 3px;
+    height: 28px;
+  }
+  
+  
+  .search_input{
+    visibility: hidden;
+    margin-top: 110px;
+    margin-right: 80px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+  }
+  
+  * {box-sizing: border-box}
+  
+  
+  body{
+
+    background-color: #4f5a74;
+  }  
+  
+  /* Add padding to containers */
+  .container {
+  padding: 16px;
+  margin-top: 100px;
+  margin-right: 350px;
+  margin-left: 350px;
+  margin-bottom: 100px;
+  border-radius:5px;
+  background-color: #bdbfc9;
+  }
+  
+  /* Full-width input fields */
+  input[type=password], input[type=password] {
+  width: 48%;
+  height:35px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border: none;
+  background: #ddd;
+  font-size: 15px;
+  }
+
+  input[type=password]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    font-size: 15px;
+    }
+
+
+  .dropdown{
+      position:relative;
+      display: inline-block;
+      width: 48%;
+      padding: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px; 
+      height: 20px;
+      font-size: 15px;
+      
+      
+    
+  }
+
+  .dropdown-content {
+      
+      display: none;
+      position: absolute;
+      background-color: #63656d;
+      z-index: 1;
+     overflow: auto;
+      
+      
+
+  }
+
+  
+  
+  input[type=text] {
+    
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    border: none;
+    background: #ddd;
+    font-size: 15px;
+    position:relative;
+    }
+  
+    input[type=password]:focus{
+      background-color: #ddd;
+      outline: none;
+      font-size: 15px;
+     
+      
+    }
+
+
+      input[type=tel], input[type=tel] {
+        width: 70%;
+        height: 35px;
+        padding: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+        display: inline-block;
+        border: none;
+        background: #ddd;
+        font-size: 15px;
+        }
+      
+        input[type=tel]:focus, input[type=tel]:focus {
+          background-color: #ddd;
+          outline: none;
+          font-size: 15px;
+          width: 48%;
+        }
+
+        .email_input[type=text], input[type=text] {
+          width: 48%;
+          height:35px;
+          padding: 15px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          display: inline-block;
+          border: none;
+          background: #ddd;
+          font-size: 15px;
+          }
+        
+          .email_input[type=text]:focus, input[type=text]:focus {
+            background-color: #ddd;
+            outline: none;
+            font-size: 15px;
+            }
+        
+
+
+      
+
+
+          input[type=checkbox]{
+            width: 48%;
+            
+             vertical-align : middle;
+            
+            margin-top: 25px;
+            margin-bottom: 20px;
+           
+            
+            font-size: 15px;
+            background-color: #ddd;
+            outline: none;
+            }
+            
+            .chechmark{
+              float: left;
+              display: flex;
+              text-align: left;
+            }
+            
+            .checkmark::after{
+              content:"";
+              position: absolute;
+              display: inline-block;
+              
+
+          }
+
+    #name{
+         width: 500px;
+         height: 40px;
+    }
+    #Sname{
+      width: 500px;
+      height: 40px;
+ }
+
+ #country{
+  width: 500px;
+  height: 40px;
+}
+
+#city{
+  width: 500px;
+  height: 40px;
+}
+
+
+#MN1{
+  width: 500px;
+  height: 40px;
+}
+
+
+
+
+#email{
+  width: 500px;
+  height: 40px;
+}
+
+
+#emailc{
+  width: 500px;
+  height: 40px;
+}
+
+
+footer{
+  margin-top: 140px;
+  border-top: 4px solid rgb(85, 85, 85);
+}
+
+.foot{
+  display: flex;
+ margin-left: 100px;
+ margin-top: 50px;
+ 
+}
+
+.footer_1{
+  border-right: 4px solid rgb(85, 85, 85);
+  padding-right: 100px;
+  
+
+}
+
+
+
+.footer_2{
+  border-right: 4px solid rgb(85, 85, 85);
+ margin-left: 100px;
+ padding-right: 100px;
+}
+
+
+.footer_3{
+  border-right: 4px solid rgb(85, 85, 85);
+  margin-left: 100px;
+  padding-right: 100px;
+}
+
+
+.footer_4{
+  margin-left: 100px;
+ padding-right: 100px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+  
+  /* Set a style for the submit/register button */
+  .submitbtn {
+  background-color: #aa0a04;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  font-size: 15px;
+  border-radius: 8px;
+  
+  }
+  
+  .submitbtn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .submitbtn a:hover {
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+  background-color: #ada3a3;
+  text-align: center;
+  
+  }
+
+
+
+
+
+
+footer{
+  margin-top: 140px;
+  border-top: 4px solid rgb(85, 85, 85);
+}
+
+.foot{
+  display: flex;
+ margin-left: 100px;
+ margin-top: 50px;
+ 
+}
+
+.footer_1{
+  border-right: 4px solid rgb(85, 85, 85);
+  padding-right: 100px;
+  
+
+}
+
+
+
+.footer_2{
+  border-right: 4px solid rgb(85, 85, 85);
+ margin-left: 100px;
+ padding-right: 100px;
+}
+
+
+.footer_3{
+  border-right: 4px solid rgb(85, 85, 85);
+  margin-left: 100px;
+  padding-right: 100px;
+}
+
+
+.footer_4{
+  margin-left: 100px;
+ padding-right: 100px;
+}

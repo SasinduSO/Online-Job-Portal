@@ -1,0 +1,99 @@
+{
+    "recruits": [
+        {
+            "name": "Jake Paul",
+            "image": "../images/recruit/image1.jpg",
+            "job": "Accountant",
+            "phoneNumber": "9422443377",
+            "email": "jakejake23@gmail.com"
+        },
+        {
+            "name": "Mark Jane",
+            "image": "../images/recruit/image2.jpg",
+            "job": "Accountant",
+            "phoneNumber": "9422443377",
+            "email": "jane87mary@yahoo.com"
+
+
+        },
+        
+        {
+            "name": "Morty Smith",
+            "image": "../images/recruit/image3.jpg",
+            "job": "Accountant",
+            "phoneNumber": "9422443377",
+            "email": "smith14morty@gmail.com"
+        },
+
+        {
+            "name": "Shaveen Rihaan",
+            "image": "../images/recruit/image4.jpg",
+            "job": "Engineer",
+            "phoneNumber": "9477246001",
+            "email": "rihaanday@gmail.com"
+        },
+
+        {
+            "name": "Niko Perera",
+            "image": "../images/recruit/image5.jpg",
+            "job": "Engineer",
+            "phoneNumber": "9677249341",
+            "email": "nikoperera@gmail.com"
+        },
+
+        {
+            "name": "Abishaya Fernando",
+            "image": "../images/recruit/image6.jpg",
+            "job": "Engineer",
+            "phoneNumber": "9277296341",
+            "email": "abishaya2002@yahoo.com"
+        },
+
+        {
+            "name": "Stellon Eardley",
+            "image": "../images/recruit/image7.jpg",
+            "job": "Engineer",
+            "phoneNumber": "9471610192",
+            "email": "stelloneardley@gmail.com"
+        },
+
+        {
+            "name": "Ammaar Miflaal",
+            "image": "../images/recruit/image8.jpg",
+            "job": "Engineer",
+            "phoneNumber": "9277254383",
+            "email": "ammaar2021@gmail.com"
+        },
+
+        {
+            "name": "Melvin Forbis",
+            "image": "../images/recruit/image9.jpg",
+            "job": "Receptionist",
+            "phoneNumber": "9477124668",
+            "email": "beth360@gmail.com"
+        },
+
+        {
+            "name": "Ronald Barr",
+            "image": "../images/recruit/image10.jpg",
+            "job": "Receptionist",
+            "phoneNumber": "9477124668",
+            "email": "beth360@gmail.com"
+        },
+
+           {"name": "Chris Rowling",
+            "image": "../images/recruit/image11.jpg",
+            "job": "Receptionist",
+            "phoneNumber": "9477124644",
+            "email": "chris3435@gmail.com"
+        },
+
+
+          { "name": "Rick Sanchez",
+            "image": "../images/recruit/image12.jpg",
+            "job": "Receptionist",
+            "phoneNumber": "9479772668",
+            "email": "sanchez123@gmail.com"
+        }
+    ]
+}

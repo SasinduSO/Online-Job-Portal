@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Jobs</title>
+    <link rel="stylesheet" href="../styles/computing.css" />
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <img src="../images/logo.jpg" class="logo">
+            <h1>𝒥𝑜𝒷 𝒟𝒾𝒸𝑒𝓈</h1>
+
+            <button type="button" id="btn1"> <a href="./login.html">Sign in</a></button>
+            <button type="button" id="btn2"> <a href="./profile.html">Profile</a></button>
+            <input type="email" class="search_input" placeholder="Search"></input>
+        </div>
+        <div class="nav1">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./findjobs.html">Find Jobs</a></li>
+                <li><a href="./recruit.html">Recruit</a></li>
+                <li><a href="./companies.html">Comapnies</a></li>
+                <li><a href="./news1.html">News</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="background">
+        <div class="computingborder">
+            <div class="computespan"><span>Computing</span></div>
+            <span class="jobAdpara">42,000 Job Advertisements</span>
+            <input style="visibility: hidden" type="search" class="searchjob" placeholder="Whats in your mind ?" />
+            <div style="visibility: hidden;" class="sortby">
+                <form >
+                    <p style="text-align: center;">Sort by</p>
+                    </br>
+                    <p>Date Passed</p>
+
+                    <input type="radio" class="radiospan" name="hours" />
+                    <span>Past 24 hours</span></br>
+
+                    <input type="radio" class="radiospan" name="week" />
+                    <span>Past week</span></br>
+
+                    <input type="radio" class="radiospan" name="month" />
+                    <span>Past month</span></br>
+
+                    <input type="radio" class="radiospan" name="anytime" />
+                    <span>Anytime</span></br>
+                    </br>
+                    <p>Years Of Experience</p>
+
+                    <input type="radio" class="radiospan" name="years" />
+                    <span>0-4 Years</span></br>
+
+                    <input type="radio" class="radiospan" name="years2" />
+                    <span>5-8 Years</span></br>
+
+                    <input type="radio" class="radiospan" name="years3" />
+                    <span>8-14 Years</span></br>
+
+                    <input type="radio" class="radiospan" name="years4" />
+                    <span>15+ Years</span></br>
+                    </br>
+
+                    <p>Location</p>
+
+                    <input type="checkbox" class="radiospan" name="Dehiwala" />
+                    <span>Dehiwala</span></br>
+
+                    <input type="checkbox" class="radiospan" name="Mount" />
+                    <span>Mount Lavinia</span></br>
+
+                    <input type="checkbox" class="radiospan" name="Wellawatte" />
+                    <span>Wellawatte</span></br>
+
+                    <input type="checkbox" class="radiospan" name="Cinnamon" />
+                    <span>Cinnamon Gardens</span></br>
+                    </br>
+
+                    <p>Salary around</p>
+
+                    <input type="checkbox" class="radiospan" name="thirtythou" />
+                    <span>Around 30'000</span></br>
+
+                    <input type="checkbox" class="radiospan" name="fiftythou" />
+                    <span>Above 50'000</span></br>
+
+                    <input type="checkbox" class="radiospan" name="hundredthou" />
+                    <span>Avove 100'000</span></br>
+
+
+                    </div>
+                    <div class="jobsname">
+                        <div class="jobtitledivs">
+                            <div class="stimg stylingjr"></div>
+                            <h4 class="headertitle"> Software Technician</h4>
+
+
+                            <div class="para">
+                                <p> Webroot is looking for an experienced Windows development engineer specializing in Windows programming. We are seeking to empower a Windows development engineer with the ability to building cutting-edge internet security applications
+                                    used by millions of consumers and businesses</p>
+                            </div>
+                            <span class="salamout">Rs.70000.00</span>
+                            <button class="submitsal" onClick="handleJobApply(event, 'Software Technician')"> APPLY </button>
+                        </div>
+
+                        <div class="jobtitledivs" style="margin-top:270px ;">
+                            <div class="saimg stylingjr"></div>
+
+                            <h4 class="headertitle" class="headertitle">System Administrator</h4>
+
+                            <div class="para">
+                                <p> We are committed to having a positive impact on our customers, our employees, and our communities. We embrace a dynamic and inclusive culture. Here you will collaborate with multi-national teams, contribute to a myriad of innovative
+                                    projects that deliver the most creative solution
+                                </p>
+                            </div>
+
+                            <span class="salamout">Rs.111 000.00</span>
+                            <button class="submitsal" onClick="handleJobApply(event, 'System Administrator')"> APPLY </button>
+                        </div>
+
+                        <div class="jobtitledivs" style="margin-top:495px ;">
+                            <div class="caeimg stylingjr"></div>
+                            <h4 class="headertitle" class="headertitle">Cloud Application Engineer</h4>
+
+                            <div class="para">
+                                <p>
+                                    As the future workforce shifts to a new flexible and remote reality, Bundle gives employees the break they need to better focus, engage, and recharge from their everyday demands. Bundle’s services include hundreds of original, interactive and live 1:1
+                                    and team sessions. All sessions are designed to engage employees and their families
+                                </p>
+                            </div>
+
+                            <span class="salamout">Rs.145 000.00</span>
+                            <button class="submitsal" onClick="handleJobApply(event, 'Cloud Application Engineer')"> APPLY </button>
+                        </div>
+                        <div class="jobtitledivs" style="margin-top:730px ;">
+                            <div class="sseimg stylingjr"></div>
+                            <h4 class="headertitle" class="headertitle"> Senior System Engineer</h4>
+
+                            <div class="para">
+                                <p>
+                                    The Senior Systems Engineer - Network will be responsible for the build and deployment process and play a role in decisions to make our applications more testable, stable, and scalable. This person will participate in the design and administration of
+                                    all IT network devices including routers
+                                </p>
+                            </div>
+
+                            <span class="salamout">Rs.190 000.00</span>
+                            <button class="submitsal" onClick="handleJobApply(event, 'Senior System Engineer')"> APPLY </button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+
+    </div>
+
+    <footer>
+    
+        <div class="foot">
+        <div class="footer_1">
+            <h4>LEARN MORE</h4>
+            <br>
+            <div class="column_1">
+                <p>About Us</p><br>
+                <p>Blog</p><br>
+                <p>Unsubscribe</p><br>
+                <p>FAQ</p><br>
+            </div>
+        </div>
+        
+        <div class="footer_2">
+            <h4>WORK WITH US</h4>
+            <br>
+            <div class="column_2">
+                <p>Advertisers</p><br>
+                <p>Developers</p><br>
+                <p>Carriers</p><br>
+            </div>
+        </div>
+    
+        <div class="footer_3">
+            <h4>COMMUNITY</h4>
+            <br>
+            <div class="column_3">
+                <p>Help</p><br>
+                <p>Terms Of Use</p><br>
+                <p>Privacy Policy</p><br>
+                <p>Legal Information</p><br>
+            </div>
+        </div>
+    
+        <div class="footer_4">
+            <h4>STAY CONNECTED</h4>
+            <br>
+            <h4>GET THE APP</h4>
+        </div>
+    
+    
+    </div>
+    
+    </footer>
+
+    <script src="../js/jobs.js"></script>
+</body>
+
+</html>

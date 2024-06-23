@@ -1,0 +1,419 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+    color: azure;
+    height: 155px;
+    text-align: center;
+    background: linear-gradient(-45deg, #000000, #63656d, #000000, #000000);
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    padding-left: 30px;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 290px;
+    height: 150px;
+    display: block;
+}
+
+
+.nav1 {
+    width: 98%;
+    background-color: rgb(74, 82, 85);
+    height: 55px;
+    margin-top: 160px;
+    border-radius: 10px;
+    border-color: rgb(122, 122, 122);
+    margin-left: 15px;
+}
+
+.nav1 ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.nav1 ul li {
+    width: 140px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 4px;
+    text-align: center;
+    overflow: auto;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav1 ul li a:hover {
+    display: block;
+    background-color: rgb(156, 13, 13);
+    border-radius: 3px;
+    height: 28px;
+}
+
+.search_input{
+    visibility: hidden;
+    margin-top: 110px;
+    margin-right: 80px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.searches {
+    border: solid;
+    border-color: #000000;
+    height: 300px;
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-image: linear-gradient(rgba(62, 76, 82, 0.993), rgba(15, 15, 15, 0.87));
+}
+
+.heading1 {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttonSearch {
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(74, 82, 85);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 180px;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+}
+
+.searches a:hover {
+    background-color: rgb(57, 90, 99);
+    color: rgb(241, 142, 142); 
+    
+  }
+
+.divWFH {
+    margin-top: 30px;
+    margin-left: 180px;
+    display: inline-block;
+}
+
+.divDD {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.divHC {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.divOJ {
+    margin-top: 60px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.divSK {
+    margin-top: 60px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.divCSE {
+    margin-top: 60px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.buttonSearch a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 17px;
+}
+
+.selectall {
+    width: 280px;
+    height: 130px;
+    background-color: rgb(74, 82, 85);
+    margin-top: 35px;
+    margin-left: 120px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.selectop {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    width: 140px;
+    height: 15px;
+    background-color: rgb(85, 112, 102);
+    color: white;
+
+}
+
+.divselect {
+    width: 280px;
+    height: 28px;
+    padding: 5px;
+    background-color: rgb(74, 82, 85);
+    color: white;
+    display: inline-block;
+}
+
+.textfield {
+    height: 300px;
+    width: 260px;
+    margin-left: 70px;
+    display: inline-block;
+    margin-top: 40px;
+   
+}
+
+.text {
+    height: 50px;
+    width: 260px;
+    margin-bottom: 15px;
+    background-color: rgb(59, 67, 70);
+}
+
+
+.quickSearch {
+    width: 1000px;
+    height: 470px;
+    margin-top: 35px;
+    margin-left: 100px;
+    padding-top: 10px;
+    display: inline-block;
+    border: solid;
+}
+
+.parasearch {
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    
+}
+
+.Computing {
+    width: 240px;
+    height: 130px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: inline-block;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.Engineering {
+    width: 240px;
+    height: 130px;
+    margin-left: 70px;
+    margin-top: 30px;
+    display: inline-block;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.HealthCare {
+    width: 240px;
+    height: 130px;
+    margin-left: 70px;
+    margin-top: 30px;
+    display: inline-block;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.Banking {
+    width: 240px;
+    height: 130px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: inline-block;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.Education {
+    width: 240px;
+    height: 130px;
+    margin-left: 70px;
+    margin-top: 30px;
+    display: inline-block;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.Marketing {
+    width: 240px;
+    height: 130px;
+    margin-left: 70px;
+    margin-top: 30px;
+    display: inline-block;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.paracat {
+    display: inline-block;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(241, 142, 142);
+}
+
+.bankp {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(241, 142, 142);
+    
+}
+
+.hero_image {
+    background-image: linear-gradient(rgba(87, 119, 112, 0.637), rgba(2, 1, 1, 0.932));
+    height: 100%;
+    height: 900px;
+    margin-top: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+  /*edit*/
+
+.quickSearch a:hover {
+    background-color: rgb(241, 142, 142); 
+}
+
+
+
+
+footer{
+    margin-top: 140px;
+    border-top: 4px solid rgb(85, 85, 85);
+  }
+  
+  .foot{
+    display: flex;
+   margin-left: 100px;
+   margin-top: 50px;
+   
+  }
+  
+  .footer_1{
+    border-right: 4px solid rgb(85, 85, 85);
+    padding-right: 100px;
+    
+  
+  }
+  
+  
+  
+  .footer_2{
+    border-right: 4px solid rgb(85, 85, 85);
+   margin-left: 100px;
+   padding-right: 100px;
+  }
+  
+  
+  .footer_3{
+    border-right: 4px solid rgb(85, 85, 85);
+    margin-left: 100px;
+    padding-right: 100px;
+  }
+  
+  
+  .footer_4{
+    margin-left: 100px;
+   padding-right: 100px;
+  }
+
+  
+#btn1{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 950px;
+    text-align: center;
+    position:absolute;
+    padding-left: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(243, 50, 50);
+   
+   
+  }
+  #btn1:hover{
+    
+        background-color: rgb(131, 29, 29);
+        color: white;
+     
+  }
+  
+  #btn2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  
+  #btn1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  
+  
+  #btn2{
+    width: 100px;
+    height: 30px;
+    display:flex;
+    margin-top: 73px;
+    margin-left: 950px;
+    text-align: center;
+    position:absolute;
+    padding-left: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(243, 50, 50);
+    
+   
+  }
+  
+  #btn2:hover{
+    
+    background-color: rgb(131, 29, 29);
+    color: white;
+  
+  }

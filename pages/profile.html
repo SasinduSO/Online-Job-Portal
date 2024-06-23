@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Update Account</title>
+        <link href="../styles/profile.css" rel="stylesheet" type="text/css">
+    </head>
+    <title>Update Account</title>
+
+    <body>
+<header>
+  <div class="top">
+        <img src="../images/logo.jpg" class="logo" >
+        <h1>𝒥𝑜𝒷 𝒟𝒾𝒸𝑒𝓈</h1>
+        
+            <button type ="button" id="btn1"> <a href="./login.html">Sign in</a></button>
+            <button type ="button" id="btn2"><a href="./profile.html">Profile</a></button>
+            <input type="text" class="search_input" placeholder="Search"></input>
+        </div>
+        <div class="nav1">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./findjobs.html">Find Jobs</a></li>
+                <li><a href="./recruit.html">Recruit</a></li>
+                <li><a href="./companies.html">Comapnies</a></li>
+                <li><a href="./news1.html">News</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+</header>
+
+  
+<form class ="UpdateAccount-form" id="UpdateAccount-form">
+ <div class="container">
+        <center><h3> <b> Update Account </b> </h3></center> </br>
+        <hr>
+		  <lable>&nbsp;&nbsp;&nbsp;First Name</lable> </br>
+		  <center><input type="text" id="fname" placeholder="First Name" name="fname"> </br></center>
+            </br>
+
+		  <lable>&nbsp;&nbsp;&nbsp;Last Name</lable></br>
+		  <center><input type="text" id="lname" placeholder="Last Name" name="lname"></center>
+		  </br>
+		  
+		  <lable>&nbsp;&nbsp;&nbsp;Email</lable></br>
+		  <center><input type="text" id="email" name="email" readonly placeholder="Email"></center>
+		  </br>
+
+		  <lable>&nbsp;&nbsp;&nbsp;Country</lable></br>
+		  <center><input type="text" id="country" name="country" placeholder="Country"></center>
+		  </br>
+
+		  <lable>&nbsp;&nbsp;&nbsp;City</lable></br>
+		  <center><input type="text" id="city" name="city" placeholder="City"></center>
+		  </br>
+		  
+		  <!-- <lable> &nbsp;&nbsp;&nbsp;Address </lable> </br>
+          <center>
+		  <input type ="text" id="country" placeholder="Street Address" name="address"></br>
+          <input type ="text" id="city" placeholder="city" name="city">
+          <input type ="text" id="province" placeholder="province" name="province"></br>
+		  <input type ="text" id="pcode" placeholder="Postal Code" name="pcode"> </center>
+		  </br> </br> -->
+		  
+		  <lable>&nbsp;&nbsp;&nbsp;Phone Number</lable>
+		  <center><input type="text" id="pnumber" name="pnumber" placeholder="Phone Number"> </center>
+		  </br>
+		  
+		 <center>
+            <div class="buttonbox">
+                <button type="submit" id="subbtn" onclick="updateProfile(event)">Update Profile</button>
+            </div>
+         </center> 
+ </form> 
+</div>
+
+<script src="../js/profile.js"></script>
+</body>
+<footer>
+    
+    <div class="foot">
+    <div class="footer_1">
+        <h4>LEARN MORE</h4>
+        <br>
+        <div class="column_1">
+            <p>About Us</p><br>
+            <p>Blog</p><br>
+            <p>Unsubscribe</p><br>
+            <p>FAQ</p><br>
+        </div>
+    </div>
+    
+    <div class="footer_2">
+        <h4>WORK WITH US</h4>
+        <br>
+        <div class="column_2">
+            <p>Advertisers</p><br>
+            <p>Developers</p><br>
+            <p>Carriers</p><br>
+        </div>
+    </div>
+
+    <div class="footer_3">
+        <h4>COMMUNITY</h4>
+        <br>
+        <div class="column_3">
+            <p>Help</p><br>
+            <p>Terms Of Use</p><br>
+            <p>Privacy Policy</p><br>
+            <p>Legal Information</p><br>
+        </div>
+    </div>
+
+    <div class="footer_4">
+        <h4>STAY CONNECTED</h4>
+        <br>
+        <h4>GET THE APP</h4>
+    </div>
+
+
+</div>
+
+</footer>
+
+</html>
